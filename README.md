@@ -35,7 +35,6 @@ Requirements:
 Outcome: 2 New DataFrames
 
 # Scatter Plot
-# DataFrame for Passed & Failed
 Background: We want to see if there is a relationship between Zip Code, Pass & Fail DataFrames. We also want to look at Price to Value Rating.
 Requirements:
   1) Scatter Plot for Passed Resturants vs Zip Code
