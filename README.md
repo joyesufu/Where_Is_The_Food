@@ -1,13 +1,16 @@
 # Merge Data Sets
 Background: We want to merge both datasets together based on the address and Zip Code
+
 Requirements: 
   1) Address on Inspection Data and API Data are formatted the same
   2) Zip Code is the same
   3) Both DataFrames are cleaned 
+
 Outcome: DataFrame
 
 # Color the Markers Based on Ranking
 Background: We want to use google maps to create a ranking system of how good/bad a Restaurant is
+
 Requirements:
   1) Merged DataFrame for API/Inspection 
   2) Create a DataFrame based on Restaurant Ranking
@@ -24,29 +27,36 @@ Requirements:
      b. Green =  DataFrame for Great rating + Passed
      c. Yellow =  DataFrame for Poor Rating + Passed
      d. Orange/Green =  DataFrame for Great rating + Failed
+
 Outcome: Gmap with Colored Pointers
 
 # DataFrame for Passed & Failed
 Background: We want to create 2 dataframes for fail vs passed Restaurants
+
 Requirements:
   1) Merged DataFrame for API/Inspection 
   2) DataFrame for Restaurant with Failed Status
   3) DataFrame for Restaurant with Passed Status
+
 Outcome: 2 New DataFrames
 
 # Scatter Plot
 Background: We want to see if there is a relationship between Zip Code, Pass & Fail DataFrames. We also want to look at Price to Value Rating.
+
 Requirements:
   1) Scatter Plot for Passed Restaurants vs Zip Code
   2) Scatter Plot for Failed Restaurants vs Zip Code
   3) Scatter Plot for Price Value vs Rating 
   4) Add Linear Regression Line & R Value
+
 Outcome: 3 scatter plots with a regression line & r value
 
 # Price and Zip Code
 Background: We want to drive deeper into comparing price value to zip code
+
 Requirements: 
 1) Merged DataFrame
 2) Average Price for Zip Code
 3) Average Price & Rating Per Zip Code
+
 Outcome: DataFrame with Comparison Points
