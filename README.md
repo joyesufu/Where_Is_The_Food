@@ -27,7 +27,7 @@ Requirements:
 Outcome: Gmap with Colored Pointers
 
 # DataFrame for Passed & Failed
-Background: We want to create 2 dataframes to seperate fail vs passed resturants
+Background: We want to create 2 dataframes for fail vs passed Restaurants
 Requirements:
   1) Merged DataFrame for API/Inspection 
   2) DataFrame for Restaurant with Failed Status
@@ -37,8 +37,8 @@ Outcome: 2 New DataFrames
 # Scatter Plot
 Background: We want to see if there is a relationship between Zip Code, Pass & Fail DataFrames. We also want to look at Price to Value Rating.
 Requirements:
-  1) Scatter Plot for Passed Resturants vs Zip Code
-  2) Scatter Plot for Failed Resturants vs Zip Code
+  1) Scatter Plot for Passed Restaurants vs Zip Code
+  2) Scatter Plot for Failed Restaurants vs Zip Code
   3) Scatter Plot for Price Value vs Rating 
   4) Add Linear Regression Line & R Value
 Outcome: 3 scatter plots with a regression line & r value
