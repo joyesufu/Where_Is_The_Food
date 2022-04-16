@@ -1,4 +1,9 @@
-# Merge Data Sets
+# To Do List:
+
+Note: When you finish an story, create/save a visualization or graph.
+
+
+# Merge Data Sets (Done)
 Background: We want to merge both datasets together based on the address and Zip Code
 
 Requirements: 
@@ -8,7 +13,7 @@ Requirements:
 
 Outcome: DataFrame
 
-# Color the Markers Based on Ranking
+# Color the Markers Based on Ranking (Anne) 
 Background: We want to use google maps to create a ranking system of how good/bad a Restaurant is
 
 Requirements:
@@ -22,7 +27,7 @@ Requirements:
     b. Restaurant with Great Rating + Passed Health Inspection
     c. Restaurant with Poor Rating + Passed Health Inspection 
     d. Restaurant with Great Rating + Failed Inspection
-  4) Make sure to import Google Maps and create gmaps with markers:
+  4) Make sure to import Google Maps and create gmaps with markers: (Zach) 
      a. Red = DataFrame for Poor rating + Failed Health
      b. Green =  DataFrame for Great rating + Passed
      c. Yellow =  DataFrame for Poor Rating + Passed
@@ -30,7 +35,7 @@ Requirements:
 
 Outcome: Gmap with Colored Pointers
 
-# DataFrame for Passed & Failed
+# DataFrame for Passed & Failed (Anne)
 Background: We want to create 2 dataframes for fail vs passed Restaurants
 
 Requirements:
@@ -40,7 +45,7 @@ Requirements:
 
 Outcome: 2 New DataFrames
 
-# Scatter Plot
+# Scatter Plot (Joshua)
 Background: We want to see if there is a relationship between Zip Code, Pass & Fail DataFrames. We also want to look at Price to Value Rating.
 
 Requirements:
@@ -51,12 +56,33 @@ Requirements:
 
 Outcome: 3 scatter plots with a regression line & r value
 
-# Price and Zip Code
+# Price and Zip Code (Ellen)
 Background: We want to drive deeper into comparing price value to zip code
 
 Requirements: 
 1) Merged DataFrame
 2) Average Price for Zip Code
-3) Average Price & Rating Per Zip Code
+3) Average Price & Rating Per Zip Code 
 
 Outcome: DataFrame with Comparison Points
+
+# Google Slides Presentation (Anne)
+Background: We want a place to show our work and demo our story/results
+
+Requirements: 
+1) insert
+2) insert
+3) insert
+
+Outcome: Deck on Google Slides
+
+
+# Place_Holder (Name)
+Background: 
+
+Requirements: 
+1) insert
+2) insert
+3) insert
+
+Outcome: insert
