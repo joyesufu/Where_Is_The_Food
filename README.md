@@ -1,9 +1,17 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Project_1
+Project code:
+=======
+# Merge Data Sets
+=======
 # To Do List:
 
 Note: When you finish an story, create/save a visualization or graph.
 
 
 # Merge Data Sets (Done)
+>>>>>>> 7754f447a74fb8356b5b1ee57fd269a4c69743a7
 Background: We want to merge both datasets together based on the address and Zip Code
 
 Requirements: 
@@ -65,6 +73,9 @@ Requirements:
 3) Average Price & Rating Per Zip Code 
 
 Outcome: DataFrame with Comparison Points
+<<<<<<< HEAD
+>>>>>>> 9d39431b9489d31658c25f35dedae9ae6cce0ef5
+=======
 
 # Google Slides Presentation (Anne)
 Background: We want a place to show our work and demo our story/results
@@ -86,3 +97,4 @@ Requirements:
 3) insert
 
 Outcome: insert
+>>>>>>> 7754f447a74fb8356b5b1ee57fd269a4c69743a7
