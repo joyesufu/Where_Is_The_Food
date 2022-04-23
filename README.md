@@ -3,9 +3,27 @@
 
 # Background:
 
-Have you or your friends ever struggled to find where to get some grub? Well, all of your struggles end here! For this project we have done all of the research for you. Some of our research has consisted of finding restaurant locations, ratings, pricing, etc. The data used came from both Yelp and the City of Chicago Food Inspections. We used these sources because Yelp is usually the place where customers aire both their positive reviews and grievances, while the City of Chicago Food Inspection supplies us with inspection results. The data gathered is for the years 2020-2022.   
+Have you or your friends ever struggled to find where to get some grub? Well, all of your struggles end here! For this project we have done all of the research for you. Some of our research has consisted of finding restaurant locations, ratings, pricing, etc. The data used came from both Yelp and the City of Chicago Food Inspections. We used these sources because Yelp is usually the place where customers air both their positive reviews and grievances, while the City of Chicago Food Inspection supplies us with inspection results. The data gathered is for the years 2020-2022.  
 
-# Table of Contents:
+# Technologies:
+
+Python, Matplotlib, Yelp Fusion API, Jupyter Notebook, Google Maps Platform 
+
+# Contributors:
+
+Anne Pizzini
+Ellen Grove
+Joshua Yesufu
+Zach Meader 
+
+# Data Source
+
+Yelp data compiled using Yelp Fusion API. Chicago restaurant inspection data from https://data.cityofchicago.org/widgets/4ijn-s7e5?mobile_redirect=true.
+
+Data used for analysis is found in 'data/yelp_inspection_merge.csv" and 'data/yelp_csv_yelp_csv_CLEAN.csv".
+
+
+# Analysis Table of Contents:
 
 
 1. [ Clean Data. ](#yelp)
