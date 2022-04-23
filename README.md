@@ -1,4 +1,4 @@
-# Project_1 Where Do You Want To Eat?
+# Project 1 Where Do You Want To Eat?
 
 
 # Background:
@@ -13,11 +13,12 @@ Have you or your friends ever struggled to find where to get some grub? Well, al
 3. [ Scatter Plot and Correlation/Regression. ](#plot)
 4. [ Pie Charts and Bar Graphs. ](#graphs)
 5. [ Google Maps. ](#maps)
+6. [ Conclusion. ](#conc)
 
 <a name="yelp"></a>
 ## 1. Clean Data
 
-What you will find below is the combined data from both Yelp and the City of Chicago Food Inspection into one dataframe. The dataframe consists of categories such as the restaurant name, rating, address, etc. We decided to focus on Chicago because it is the biggest city in the state and one of the biggest cities in the country, therefore we knew that we would be able to gather an enormous amount data to support our findings. 
+What you will find below is the combined data from both Yelp and the City of Chicago Food Inspection into one dataframe. The dataframe consists of categories such as the restaurant name, rating, address, etc. We decided to focus on Chicago because it is the biggest city in the state and one of the biggest cities in the country, therefore we knew that we would be able to gather an enormous amount of data to support our findings. 
 
 Note: This image has been modified to fit the page due this being a large set of data, therefore it displays only five rows and eight columns.
 
@@ -55,7 +56,9 @@ Here is the scatter plot:
 
 
 
-This next image displays the regression graph based on the scatter plot above. You will find that the linear regression equation is displayed within the graph. Based on the regression graph we can see that both the average rating and the average price are positively correlated, but the connection to one another is weak. 
+This next image displays the regression graph based on the scatter plot above. You will find that the linear regression equation is displayed within the graph. Based on the regression graph we can see that both the average rating and the average price are positively correlated, but the relationship to one another is weak.
+
+Note: r-squared = .18
 
 ![Regression](/images/Scatter2.png)
 
@@ -64,7 +67,7 @@ This next image displays the regression graph based on the scatter plot above. Y
 <a name="graphs"></a>
 ## Pie Charts and Bar Graphs
 
-Below you will find pie charts displaying all of the restaurants that either passed or failed inspections for all of the zip codes in Chicago. Based off of the chart most restaurants in Chicago have passed inspection.
+Below you will find a pie chart displaying all of the restaurants that either passed or failed inspections for all of the zip codes in Chicago. Based off of the chart most restaurants in Chicago have passed inspection.
 
 ![Inspection_Pie](/images/pie_pass_fail.png)
 
@@ -87,7 +90,27 @@ We also created a bar graph that will give us a visual of how restaurant ratings
 <a name="maps"></a>
 ## Google Maps
 
-These are probably the most important visuals in the project because due to Chicago being a fairly big city it would help if people had visual of exactly where certain restaurants are located and what other places surround them. 
+These are probably the most important visuals in the project because due to Chicago being a fairly big city it would help if people had visual of exactly where certain restaurants are located and what other places surround them. The first graph that is being displayed is around Wrigley Field. 
+
+This map displays restaurants/bars that you and some friends could potentially go to. For example, we picked three random restaurants/bars in the area and they are Old Crow, Butcher's Tap, Budweiser Brickhouse. Though there are a variety restaurants/bars you can choose from. 
+
+Note: The red marks represent zip code 60613 and the blue marks represent zip code 60657
+
+![Beer_Buddies](/images/BWB_Final.png)
+
+
+The final display is more centered around Downtown Chicago. As you can see there is an abundance of restaurants located in the the Downtown area.
+
+Note: Many restaurants are located in skyscrapers, therefore some of the dots are stacked on top of each other displaying one dot.
+
+![Beer_Buddies](/images/I_Promise_Clean_Final.png)
+
+
+<a name="conc"></a>
+## Conclusion
+
+What we can infer from our research is that the majority of higher rated restaurants typically pass inspections, but not all of the time. Another conclusion that can be drawn from the data is that higher rated restaurants do not necessarily mean that these restaurants are expensive, especially when our research has showed us that there are expensive restaurants that have poor ratings. Hopefully, our research has displayed our understanding of the layout of the city of Chicago, Yelp, and other resources and skills needed for this project. 
+
 
 
 
