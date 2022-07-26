@@ -1,4 +1,4 @@
-# Project 1 Where Do You Want To Eat?
+Where Do You Want To Eat?
 
 
 # Background:
